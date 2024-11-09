@@ -17,11 +17,13 @@ const Navbar = () => {
               <li className="nav-item">
                 <Link className="nav-link active navbar-dark" aria-current="page" to='/'>Inicio</Link>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link navbar-dark" to='/apirick'>Api RickMorty</Link>
-              </li>
+    
               <li className="nav-item">
                 <Link className="nav-link navbar-dark" to='/formulario'>Formulario</Link>
+              </li>
+
+              <li className="nav-item">
+                <Link className="nav-link navbar-dark" to='/formulario'>Formulario2</Link>
               </li>
             </ul>
           </div>
